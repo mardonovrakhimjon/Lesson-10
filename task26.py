@@ -1,6 +1,4 @@
-a = "------Z"
-b = "a-----z"
-c = "0----9"
+a = input("name: ")
 
-n = a.replace("-", ""), b.replace("-", ""), c.replace("-", "")
+n = a.replace("-", "").isalnum()
 print(n) 
